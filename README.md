@@ -26,12 +26,12 @@ Maybe you need rm last build dictionary first or you must redefine ASYNC_TYPE
 ```
 mkdir -p build
 cd build
-cmake .. -DGOOD_TYPE=GOOD_TYPE
+cmake .. -DREPLY_TYPE=GOOD_TYPE
 make
 ./a.out # excute in async way and won't cause coredump
 ```
 ## Build with TSAN
-Maybe you need rm last build dictionary first or you must redefine ASYNC_TYPE and GOOD_TYPE
+Maybe you need rm last build dictionary first or you must redefine ASYNC_TYPE and REPLY_TYPE
 ```
 mkdir -p build
 cd build
