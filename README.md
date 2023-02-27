@@ -40,7 +40,7 @@ make
 TSAN_OPTIONS=log_path=$(cd $(dirname $0); pwd)/tsan.log ./a.out
 ```
 
-## Test request
+# Test
 Run my script must install node first, the tool will send a get request every 2 ms
 ```
 node test.js
